@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Concessionária</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Concessionária</h1>
+    <form id="formulario">
+        <label for="marca">Marca:</label><br>
+        <input type="text" id="marca" name="marca"><br>
+        <label for="modelo">Modelo:</label><br>
+        <input type="text" id="modelo" name="modelo"><br>
+        <label for="ano">Ano:</label><br>
+        <input type="number" id="ano" name="ano"><br>
+        <label for="preco">Preço:</label><br>
+        <input type="number" id="preco" name="preco"><br>
+        <label for="cor">Cor:</label><br>
+        <input type="text" id="cor" name="cor"><br>
+        <label for="ar">Ar-condicionado:</label><br>
+        <input type="checkbox" id="ar" name="ar"><br>
+        <button type="submit">Adicionar Carro</button>
+    </form>
+
+    <h2>Lista de Carros</h2>
+    <div id="lista_car"></div>
+
+    <h2>Buscar Carro</h2>
+    <form id="formularioBusca">
+        <label for="termoBusca">Termo de busca:</label><br>
+        <input type="text" id="termoBusca" name="termoBusca"><br>
+        <button type="submit">Buscar</button>
+    </form>
+    <div id="buscaResultado"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
